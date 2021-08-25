@@ -170,3 +170,4 @@
 /Users/noahrahimzadagan/Projects/IssueTracker/IssueTracker/obj/Debug/net5.0/Razor/Views/Issue/Details.cshtml.g.cs
 /Users/noahrahimzadagan/Projects/IssueTracker/IssueTracker/obj/Debug/net5.0/Razor/Views/Issue/Edit.cshtml.g.cs
 /Users/noahrahimzadagan/Projects/IssueTracker/IssueTracker/obj/Debug/net5.0/Razor/Views/Issue/Create.cshtml.g.cs
+/Users/noahrahimzadagan/Projects/IssueTracker/IssueTracker/obj/Debug/net5.0/Razor/Views/User/Index.cshtml.g.cs

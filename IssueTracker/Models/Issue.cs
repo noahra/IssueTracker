@@ -15,9 +15,9 @@ namespace IssueTracker.Models
         public string Status { get; set; }
 
         [DataType(DataType.Date)]
-        public DateTime Created { get; set; }
+        public System.DateTime Created { get; set; } = System.DateTime.Today;
         public string Project { get; set; }
-        public decimal Priority { get; set; }
-        public decimal Type { get; set; }
+        public string Priority { get; set; }
+        public string Type { get; set; }
     }
 }
