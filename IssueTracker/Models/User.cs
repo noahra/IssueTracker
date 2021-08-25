@@ -7,15 +7,14 @@ namespace IssueTracker.Models
     {
         public User()
         {
+            Admin = true;
         }
 
         public int Id { get; set; }
-        public string name { get; set; }
-
-        [DataType(DataType.Date)]
-        public DateTime ReleaseDate { get; set; }
-        public string Genre { get; set; }
-        public decimal Price { get; set; }
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public string Role { get; set; }
+        public bool Admin { get; set; }
     }
 }
 

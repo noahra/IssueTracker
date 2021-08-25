@@ -14,7 +14,7 @@
         "outputPath": "/Users/noahrahimzadagan/Projects/IssueTracker/IssueTracker/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/noahrahimzadagan/.config/NuGet/NuGet.Config"
+          "/Users/noahrahimzadagan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"

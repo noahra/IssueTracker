@@ -43,6 +43,9 @@ namespace IssueTracker
                     options.UseSqlServer(connectionString);
                 }
             });
+
+            services.AddDbContext<UserContext>(options =>
+                    options.UseSqlite(Configuration.GetConnectionString("UserContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
