@@ -27,7 +27,7 @@ using IssueTracker.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"38331e2488f1d8d0f7eb1af7e692c1f33ffb86d1", @"/Views/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"03b52ed56638124387e8792a6c35bf2c4b4a5afa", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"796ca2dc03405ab452b2fb220435520d8fabc826", @"/Views/_ViewImports.cshtml")]
     public class Views_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

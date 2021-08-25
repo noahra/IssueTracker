@@ -14,7 +14,7 @@
         "outputPath": "/Users/noahrahimzadagan/Projects/IssueTracker/IssueTracker/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/noahrahimzadagan/.config/NuGet/NuGet.Config"
+          "/Users/noahrahimzadagan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -38,9 +38,23 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "bootstrap": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[5.1.0, )"
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             }
           },
           "imports": [
